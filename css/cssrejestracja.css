@@ -1,0 +1,102 @@
+@charset "utf-8";
+        
+body{
+    background-color:darkgrey;
+	background-image:url('../grafika/Velen.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+
+/* Zegarek */
+
+div#zegarek{
+    display:none;
+}
+
+/* Login i jego t³a */
+
+div#div{
+	background-color:rgba(0,0,0,0.9);
+	width:180px;
+	min-height:270px;
+	margin:0 auto;
+    text-align:center;
+ 	font-size:17px;
+	color:#FFF;
+    padding:auto;
+    border:1px solid black;
+}
+div#div input.inpt{
+    color:#FFF;
+	background-color:grey;
+	background:linear-gradient(to top, #000033, #003399);
+	border:1px solid white;
+	width:140px;
+	line-height:1em;
+	font-size:14px;
+}
+div#back a{
+	text-decoration:none;
+	color:red;
+	font-size:17px;
+	transition-duration:1s;
+}
+div#back a:hover{
+	color:red;
+	font-size:20px;
+}
+input#press{
+	color:#FFF;
+	width:120px;
+	height:40px;
+	background-color:#003399;
+	background:linear-gradient(to top, #000033, #003399);
+	border:1px solid black;
+	transition-duration:1s;
+}
+input#press:hover{
+	color:green;
+	background-color:#a9fa32;
+	border:1px solid green;
+	background:linear-gradient(to top, #003399, #000033);
+    padding: 5 10;
+}
+div.infob{
+    width:180px;
+	min-height:1em;
+	background:rgba(139,0,0,0.7);
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	margin:20px auto 0px;
+	text-align:center;
+}
+div.infog{
+    width:180px;
+	min-height:1em;
+	background:rgba(0,100,0,0.7);
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	margin:20px auto 0px;
+	text-align:center;
+}
+
+/* U³o¿enie wnetrza login */	
+
+div.for{
+	text-align:center;
+    margin: 10px auto;
+	width:140px;
+}
+div#press{
+    margin:30px auto;
+	width:140px;
+	height:30px;	
+}
+div#back{
+	margin:30px auto;
+	min-width:140px;
+    line-height:1em;
+}

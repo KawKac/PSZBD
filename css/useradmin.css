@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+body{
+    background-color:black;
+    background-image:url('../grafika/Velen.jpg');
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+
+/* Login i jego t³a */
+
+div#div{
+    position:fixed;
+	background-color:rgba(0,0,0,0.9);
+	width:180px;
+	min-height:270px;
+	top:31px;
+    left:10px;
+    text-align:center;
+ 	font-size:17px;
+	color:#FFF;
+    padding:auto;
+    border:1px solid black;
+}
+div#div input.inpt{
+    color:#FFF;
+	background-color:grey;
+	background:linear-gradient(to top, #000033, #003399);
+	border:1px solid white;
+	width:140px;
+	line-height:1em;
+	font-size:14px;
+}
+div#back a{
+	text-decoration:none;
+	color:red;
+	font-size:17px;
+	transition-duration:1s;
+}
+div#back a:hover{
+	color:red;
+	font-size:20px;
+}
+input#press{
+	color:#FFF;
+	width:120px;
+	height:40px;
+	background-color:#003399;
+	background:linear-gradient(to top, #000033, #003399);
+	border:1px solid black;
+	transition-duration:1s;
+}
+input#press:hover{
+	color:green;
+	background-color:#a9fa32;
+	border:1px solid green;
+	background:linear-gradient(to top, #003399, #000033);
+    padding: 5 10;
+}
+div.infob{
+    position:fixed;
+    top:10px;
+    left:10px;
+    width:182px;
+	min-height:1em;
+	background:rgba(139,0,0,0.7);
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	margin:1px auto;
+	text-align:center;
+}
+div.infog{
+    position:fixed;
+    top:10px;
+    left:10px;
+    width:182px;
+	min-height:1em;
+	background:rgba(0,100,0,0.7);
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	margin:1px auto;
+	text-align:center;
+}
+
+/* U³o¿enie wnetrza login */	
+
+div.for{
+	text-align:center;
+    margin:10px auto;
+	width:140px;
+}
+div#press{
+    margin:15px auto;
+	width:140px;
+	height:40px;	
+}
+div#back{
+    margin:15px auto;
+	width:140px;
+    line-height:1em;
+}
+
+/* Tabela */
+
+table{
+    margin:30px auto;
+    border:1px solid grey;
+    background-color:rgba(0,0,0,0.9);
+    color:white;
+    text-align:center;
+}
+td{
+    border:1px solid grey;
+    font-size:17px;
+    height:1.5em;
+}
+div.infobdo{
+    width:182px;
+    min-height:1em;
+	background:rgba(139,0,0,0.7);
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+    margin:20px auto;
+	text-align:center;
+}
+div.infogdo{
+    width:182px;
+	min-height:1em;
+	background:rgba(0,100,0,0.7);
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	margin:20px auto;
+	text-align:center;
+}
+a.do{
+    text-decoration:none;
+    color:green;
+}
+a.do:hover{
+    text-decoration:none;
+    color:red;
+}
